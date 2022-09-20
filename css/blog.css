@@ -1,0 +1,50 @@
+main{
+    background-color: #121212;
+    color: #fff;
+    padding: 5rem;
+}
+main header{
+    max-width: 1280px;
+    margin: 0 auto;
+    border-bottom:1px solid rgba(255,255,255,0.1);
+}
+main header h1{
+    display: none;
+}
+main header img{
+    width: 100%;
+    padding: 5rem 0;
+}
+#articles{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 5rem 0;
+
+    display: flex;
+    gap: 2rem;
+}
+#articles .main-article, #articles .more-articles{
+    width: 50%;
+}
+#articles .main-article img{
+    width: 100%;
+}
+#articles .main-article h2{
+    color: #fff;
+}
+#articles .more-articles{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#articles .more-articles article{
+    display: flex;
+    gap: 2rem;
+
+    height: calc(33% - 1.5rem);
+}
+#articles .more-articles article div{
+    width: 50%;
+    
+}
+

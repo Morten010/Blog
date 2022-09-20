@@ -1,0 +1,15 @@
+.article-ai-img{
+    background-image: url(../assets/ai-sun-god.png);
+    background-position: center;
+    background-size: cover;
+}
+.article-apple-img{
+    background-image: url(../assets/apple.webp);
+    background-position: center;
+    background-size: cover;
+}
+.article-figma-img{
+    background-image: url(../assets/figma-adobe-purchase.jpg);
+    background-position: center;
+    background-size: cover;
+}
