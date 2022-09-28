@@ -76,3 +76,8 @@ nav .logo{
 nav i{
     font-size: 2.2rem;
 }
+@media (max-width: 1000px) {
+    nav ul:last-child{
+        display: none;
+    }
+}

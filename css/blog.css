@@ -47,4 +47,31 @@ main header img{
     width: 50%;
     
 }
-
+@media (max-width: 1000px) {
+    #articles{
+        flex-direction: column;
+    }
+    #articles .main-article, #articles .more-articles{
+        width: 100%;
+    }
+    nav ul:last-child{
+        display: none;
+    }
+    #articles .more-articles article{
+        height: 30vh;
+        flex-direction: row-reverse;
+    }
+    #articles .more-articles article div{
+        width: 60%;
+    }
+    #articles .more-articles article .article-img{
+        width: 40%;
+        margin: 3rem 0;
+    }
+}
+@media only screen and (max-width: 600px) {
+    main{
+        padding: 2rem;
+        padding-top: 4rem;
+    }
+}

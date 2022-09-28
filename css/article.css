@@ -43,3 +43,12 @@ article address a{
 article address a:hover{
     color: rgb(231, 231, 231);
 }
+@media (max-width: 1000px) {
+    h1{
+        font-size: 5rem;
+    }
+    article address{
+        flex-direction: column;
+        gap: 0;
+    }
+}
